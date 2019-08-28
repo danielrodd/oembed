@@ -1,0 +1,10 @@
+---
+- provider_name: Rodd
+  provider_url: https://rodd.co/
+  endpoints:
+  - schemes:
+    - https://*.rodd.co/*
+    url: https://rodd.co/oembed/
+    discovery: true
+    example_urls:
+    - http://rodd.co/oembed/?url=http://tracks.rodd.co/42750&amp;format=json
